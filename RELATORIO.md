@@ -1,27 +1,17 @@
 # Relatório
 
-> [!CAUTION]
->
-> - Você <ins>**não**</ins> **pode utilizar ferramentas de IA para escrever este relatório**.
-
 ## Identificação
 
-- **Nome**: <mark>`<preencher>`</mark>
-- **Cartão UFRGS:** <mark>`<preencher>`</mark>
+- **Nome**: João Luis Scheffel Koller
+- **Cartão UFRGS:** 00589701
 
 ## Dados utilizados
 
-> [!IMPORTANT]
->
-> - Os dados utilizados devem ser informados como **links** para as fontes originais.
-> - Se houver mais de um conjunto de dados, liste todos separadamente.
-> - Para cada conjunto de dados, inclua também uma **descrição curta** explicando os dados.
-
-1. **Dataset 1**: <mark>`<link>`</mark>
-    * **Descrição curta**: <mark>`<preencher>`</mark>
-2. **Dataset 2**: <mark>`<link>`</mark>
-    * **Descrição curta**: <mark>`<preencher>`</mark>
-3. ...
+1. **Estabelecimentos, Cadastro Nacional de Pessoa Jurídica, Receita Federal**: https://arquivos.receitafederal.gov.br/index.php/s/YggdBLfdninEJX9?dir=/2026-10 
+    * **Descrição curta**: A cada mês, a Receita Federal publica uma foto completa do Cadastro naquele dia,
+    que contém todo CNPJ que já existiu, seja ativo seja já fechado. Assim, o dataset escolhido para o
+    presente trabalho corresponde à publicação de outubro de 2026. Foram utilizados os 10 arquivos .csv que constam nas 10 pastas
+    de Estabelecimentos0.zip a Estabelecimentos9.zip os quais registram cada unidade (matriz ou filial) de cada CNPJ. Os números 0 a 9 são pedaços da mesma tabela, com as mesmas colunas.
 
 ## Código-fonte da visualização
 
@@ -29,8 +19,8 @@
 >
 > - Indique abaixo onde está, dentro deste repositório, o código-fonte usado para gerar a visualização.
 
-- **Arquivo principal**: <mark>`<preencher>`</mark>
-- **Arquivos complementares (se houver)**: <mark>`<preencher>`</mark>
+- **Arquivo principal**:
+- **Arquivos complementares (se houver)**: visualizacao.ipynb
 
 ## Imagem da visualização gerada
 
